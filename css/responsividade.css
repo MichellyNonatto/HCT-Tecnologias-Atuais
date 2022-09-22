@@ -1,0 +1,68 @@
+@media (max-width:770px) {
+    html {
+        width: 650px;
+        font-size: 80%;
+    }
+
+    body {
+        width: auto;
+    }
+
+    #menu {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .titulo {
+        top: 250px;
+        left: 220px;
+    }
+
+    .mensagem {
+        margin-top: 50px;
+        font-size: 2.5rem;
+        width: 250px;
+    }
+
+    .titulo-conteudo {
+        font-size: 20px;
+    }
+
+    .pesquisa img {
+        width: 60%;
+    }
+
+    .pesquisa-texto {
+        clear: both;
+    }
+
+    .pesquisa .right,
+    .pesquisa .left {
+        margin: 50px 15%;
+    }
+
+    .pesquisa iframe {
+        width: 70%;
+        height: 300px;
+    }
+
+    .flex {
+        margin: auto 15%;
+    }
+
+    .pesquisa-texto p {
+        margin: auto;
+    }
+
+    .flex-respon {
+        display: flex;
+        gap: 20px;
+        margin: 0 -10rem;
+    }
+
+    .barra,
+    .janela {
+        margin: 0 5% 0 0;
+    }
+}
